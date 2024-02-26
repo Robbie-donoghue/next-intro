@@ -9,7 +9,7 @@ export default function Home() {
       <h1>The first header!</h1>
       <p> including dynamic routes and scary page structure</p>
       <Link href="/ancient-japan">
-        See what Japanese history you'll learn about today!
+        See what Japanese history you will learn about today!
       </Link>
       <Link href="/blog"> Read blog posts</Link>
     </div>
