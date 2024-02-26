@@ -17,7 +17,7 @@ export default async function page({ searchParams }) {
       <h1>Posts</h1>
       <ul>
         {posts.map((post) => (
-          <li>
+          <li key={post.id}>
             key={post.id}
             <h3>{post.title}</h3>
             <Link href={`/blog${post.id}`}>Read more!</Link>
