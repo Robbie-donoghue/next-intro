@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <div className="mainPage">
+    <div className="mainPage text-3xl font-bold underline">
       <h1>The first header!</h1>
       <p> including dynamic routes and scary page structure</p>
       <Link href="/ancient-japan">
